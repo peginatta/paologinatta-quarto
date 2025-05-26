@@ -29,8 +29,8 @@ bibliography: files/bib/references.bib
 csl: files/bib/chicago-author-date.csl
 
 # Metadata stuff
-pagetitle: "{{< meta title >}} | Andrew Heiss"
-author-meta: "Andrew Heiss"
+pagetitle: "{{< meta title >}} | Paolo Ginatta"
+author-meta: "Paolo Ginatta"
 
 website:
   title: "Paolo Ginatta"
@@ -44,8 +44,8 @@ website:
   twitter-card: 
     image: "/files/profiles/twitter-card-large.png"
     card-style: summary_large_image
-    creator: "@andrewheiss"
-    site: "@andrewheiss"
+    creator: "@PGinatta"
+    site: "@PGinatta"
 
   open-graph: 
     image: "/files/profiles/twitter-card-large.png"
