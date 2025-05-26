@@ -1,0 +1,15 @@
+---
+title: "Andrew Heiss's blog"
+search: false
+listing:
+  sort: "date desc"
+  feed: 
+    title: "Andrew Heiss's blog"
+    description: "Andrew Heiss's blog"
+    items: 60
+    type: partial
+    language: en
+  contents:
+    - "blog/**/index.qmd"
+    - "!blog/index.qmd"
+---
