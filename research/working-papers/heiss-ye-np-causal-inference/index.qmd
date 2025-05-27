@@ -31,8 +31,7 @@ pub-status:
 
 ## Important links
 
-- [GitHub repository](https://github.com/andrewheiss/corrupt-caterpillar)
-
+-   [GitHub repository](https://github.com/andrewheiss/corrupt-caterpillar)
 
 ## Abstract
 
