@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Andrew Heiss&#39;s blog</title>
+<link>https://peginatta.github.io/paologinatta-quarto/rss.html</link>
+<atom:link href="https://peginatta.github.io/paologinatta-quarto/rss.xml" rel="self" type="application/rss+xml"/>
+<description>Andrew Heiss&#39;s blog</description>
+<language>en</language>
+<generator>quarto-1.7.31</generator>
+<lastBuildDate>Tue, 18 Feb 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>How to use a histogram as a legend in {ggplot2}</title>
+  <dc:creator>Paolo Ginatta</dc:creator>
+  <link>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/19/ggplot-histogram-legend/</link>
+  <description><![CDATA[ Land isn’t unemployed—people are. Here’s how to use R, {ggplot2}, {sf}, and {patchwork} to create a histogram legend in a choropleth map to better see the distribution of values. ]]></description>
+  <category>r</category>
+  <category>tidyverse</category>
+  <category>ggplot</category>
+  <category>gis</category>
+  <category>maps</category>
+  <guid>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/19/ggplot-histogram-legend/</guid>
+  <pubDate>Tue, 18 Feb 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/19/ggplot-histogram-legend/index_files/figure-html/plot-histogram-legend-1.png" medium="image" type="image/png" height="103" width="144"/>
+</item>
+<item>
+  <title>How to move Crimea from Russia to Ukraine in maps with R</title>
+  <dc:creator>Paolo Ginatta</dc:creator>
+  <link>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/13/natural-earth-crimea/</link>
+  <description><![CDATA[ Natural Earth’s de facto on-the-ground policy conflicts with de jure boundaries. Use {sf} and R to relocate parts of country shapes. ]]></description>
+  <category>r</category>
+  <category>tidyverse</category>
+  <category>ggplot</category>
+  <category>ojs</category>
+  <category>observable plot</category>
+  <category>gis</category>
+  <category>maps</category>
+  <guid>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/13/natural-earth-crimea/</guid>
+  <pubDate>Wed, 12 Feb 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/13/natural-earth-crimea/index_files/figure-html/plot-eastern-europe-50-1.png" medium="image" type="image/png" height="89" width="144"/>
+</item>
+<item>
+  <title>Using USAID data to make fancy world maps with Observable Plot</title>
+  <dc:creator>Paolo Ginatta</dc:creator>
+  <link>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/10/usaid-ojs-maps/</link>
+  <description><![CDATA[ Manipulate geographic data, change projections, get live data from a database, and make interactive plots with Observable JS ]]></description>
+  <category>ojs</category>
+  <category>observable plot</category>
+  <category>gis</category>
+  <category>maps</category>
+  <category>usaid</category>
+  <guid>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/10/usaid-ojs-maps/</guid>
+  <pubDate>Sun, 09 Feb 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/10/usaid-ojs-maps/img/final-plot.png" medium="image" type="image/png" height="74" width="144"/>
+</item>
+<item>
+  <title>Guide to comparing sample and population proportions with CPS data, both classically and Bayesianly</title>
+  <dc:creator>Paolo Ginatta</dc:creator>
+  <link>https://peginatta.github.io/paologinatta-quarto/blog/2025/01/27/ipums-cps-proportions-bayes/</link>
+  <description><![CDATA[ Download CPS demographic data from IPUMS and use R and {brms} to calculate differences between sample and national proportions with Bayesian ROPE-based inference ]]></description>
+  <category>r</category>
+  <category>tidyverse</category>
+  <category>us census</category>
+  <category>ggplot</category>
+  <category>bayes</category>
+  <category>brms</category>
+  <category>surveys</category>
+  <guid>https://peginatta.github.io/paologinatta-quarto/blog/2025/01/27/ipums-cps-proportions-bayes/</guid>
+  <pubDate>Sun, 26 Jan 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://peginatta.github.io/paologinatta-quarto/blog/2025/01/27/ipums-cps-proportions-bayes/index_files/figure-html/fig-prop-test-bayes-diffs-1.png" medium="image" type="image/png" height="108" width="144"/>
+</item>
+</channel>
+</rss>

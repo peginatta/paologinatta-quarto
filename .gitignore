@@ -5,8 +5,6 @@
 .Ruserdata
 
 # Quarto stuff
-/.quarto/
-_site/
 **/*_cache/*
 
 # Miscellaneous stuff

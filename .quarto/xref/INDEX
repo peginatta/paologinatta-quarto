@@ -1,0 +1,149 @@
+{
+  "index.qmd": {
+    "index.html": "89fb25a1"
+  },
+  "404.qmd": {
+    "404.html": "b7b82cae"
+  },
+  "atom.qmd": {
+    "atom.html": "ecb52779"
+  },
+  "blog/2025/01/27/ipums-cps-proportions-bayes/index.qmd": {
+    "index.html": "58d7bce2"
+  },
+  "blog/2025/02/10/usaid-ojs-maps/index.qmd": {
+    "index.html": "23428c19"
+  },
+  "blog/2025/02/13/natural-earth-crimea/index.qmd": {
+    "index.html": "82fa6153"
+  },
+  "blog/2025/02/19/ggplot-histogram-legend/index.qmd": {
+    "index.html": "0a57d0c0"
+  },
+  "blog/index.qmd": {
+    "index.html": "deaaebb7"
+  },
+  "cv/index.qmd": {
+    "index.html": "8fd18397"
+  },
+  "now/index.qmd": {
+    "index.html": "ecebadef"
+  },
+  "research/articles/arel-bundock-greifer-heiss-mfxplainer-2024/index.qmd": {
+    "index.html": "cba75f93"
+  },
+  "research/articles/chaudhry-comstock-heiss-pandemic-pass-2024/index.qmd": {
+    "index.html": "aa9e90a8"
+  },
+  "research/articles/chaudhry-dotson-heiss-2021/index.qmd": {
+    "index.html": "b95a0a73"
+  },
+  "research/articles/chaudhry-heiss-ngos-philanthropy/index.qmd": {
+    "index.html": "a65e7488"
+  },
+  "research/articles/chaudhry-heiss-ngos-repression/index.qmd": {
+    "index.html": "0101c460"
+  },
+  "research/articles/comstock-heiss-chaudhry-derogations-backsliding/index.qmd": {
+    "index.html": "d057c5c0"
+  },
+  "research/articles/heiss-2012/index.qmd": {
+    "index.html": "9c7692ac"
+  },
+  "research/articles/heiss-2019-taking-control/index.qmd": {
+    "index.html": "e8b32223"
+  },
+  "research/articles/heiss-johnson-2016/index.qmd": {
+    "index.html": "ccac4466"
+  },
+  "research/articles/heiss-kelley-2017/index.qmd": {
+    "index.html": "cec35c3e"
+  },
+  "research/articles/heiss-kelley-2017a/index.qmd": {
+    "index.html": "7298e6c9"
+  },
+  "research/articles/peck-heiss-2021/index.qmd": {
+    "index.html": "1a6e40c8"
+  },
+  "research/articles/witesman-heiss-2016/index.qmd": {
+    "index.html": "3f2c5971"
+  },
+  "research/chapters/chaudhry-heiss-closing-space/index.qmd": {
+    "index.html": "564c017c"
+  },
+  "research/chapters/heiss-causal-inference-2021/index.qmd": {
+    "index.html": "61f07c6a"
+  },
+  "research/chapters/heiss-ngo-ir-2019/index.qmd": {
+    "index.html": "bc0c5b33"
+  },
+  "research/chapters/johnson-heiss-2018/index.qmd": {
+    "index.html": "8b4af296"
+  },
+  "research/dormant-working-papers/heiss-rogerson-discourse/index.qmd": {
+    "index.html": "c53c29e0"
+  },
+  "research/dormant-working-papers/heiss-rogerson-sources/index.qmd": {
+    "index.html": "b30971d3"
+  },
+  "research/index.qmd": {
+    "index.html": "b19eaec4"
+  },
+  "research/reviews/heiss-death-idealism/index.qmd": {
+    "index.html": "88d382ee"
+  },
+  "research/reviews/heiss-voluntas-review-2014/index.qmd": {
+    "index.html": "7416daf7"
+  },
+  "research/seminar-papers/heiss-ngo-cooperation/index.qmd": {
+    "index.html": "6bbff687"
+  },
+  "research/seminar-papers/heiss-undemocratic-leaders/index.qmd": {
+    "index.html": "8232bde4"
+  },
+  "research/translations/heiss-abdel-samad-2011/index.qmd": {
+    "index.html": "6336af51"
+  },
+  "research/translations/heiss-prince-2011/index.qmd": {
+    "index.html": "d2c6900d"
+  },
+  "research/working-papers/chaudhry-dotson-heiss-why-donors-donate/index.qmd": {
+    "index.html": "ef790095"
+  },
+  "research/working-papers/chaudhry-heiss-derogations/index.qmd": {
+    "index.html": "7aa24f54"
+  },
+  "research/working-papers/chaudhry-heiss-ngos-aid/index.qmd": {
+    "index.html": "86a03446"
+  },
+  "research/working-papers/heiss-amicable-contempt/index.qmd": {
+    "index.html": "68ef5c18"
+  },
+  "research/working-papers/heiss-mission-money-environment/index.qmd": {
+    "index.html": "af0b9585"
+  },
+  "research/working-papers/heiss-nafa-bayes-ipw/index.qmd": {
+    "index.html": "b9eba1f1"
+  },
+  "research/working-papers/heiss-program-capture-ingos/index.qmd": {
+    "index.html": "26b131e7"
+  },
+  "research/working-papers/heiss-ye-china-ongos/index.qmd": {
+    "index.html": "6ac8ee24"
+  },
+  "research/working-papers/heiss-ye-np-causal-inference/index.qmd": {
+    "index.html": "62f4e62d"
+  },
+  "rss.qmd": {
+    "rss.html": "eb3c57e3"
+  },
+  "talks/index.qmd": {
+    "index.html": "5d685483"
+  },
+  "teaching/index.qmd": {
+    "index.html": "334256b6"
+  },
+  "uses/index.qmd": {
+    "index.html": "924ca8c7"
+  }
+}
