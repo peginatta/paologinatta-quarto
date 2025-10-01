@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 author: ""
-description: "Andrew Heiss's blog"
+description: "Paolo Ginatta's blog"
 listing:
   - id: posts_2025
     contents: "2025/**/index.qmd"
