@@ -48,11 +48,9 @@ haiku:
 - [Paper (preprint)](mfxplainer.pdf)
 - [GitHub repository](https://github.com/vincentarelbundock/mfxplainer)
 
-
 ## Abstract
 
 The parameters of a statistical model can sometimes be difficult to interpret substantively, especially when that model includes non-linear components, interactions, or transformations. Analysts who fit such complex models often seek to transform raw parameter estimates into quantities that are easier for domain experts and stakeholders to understand. This article presents a simple conceptual framework to describe a vast array of such quantities of interest, which are reported under imprecise and inconsistent terminology across disciplines: predictions, marginal predictions, marginal means, marginal effects, conditional effects, slopes, contrasts, risk ratios, etc. We introduce {marginaleffects}, a package for R and Python which offers a simple and powerful interface to compute all of those quantities, and to conduct (non-)linear hypothesis and equivalence tests on them. {marginaleffects} is lightweight; extensible; it works well in combination with other R and Python packages; and it supports over 100 classes of models, including Linear, Generalized Linear, Generalized Additive, Mixed Effects, Bayesian, and several machine learning models.
-
 
 ## Important figures
 
