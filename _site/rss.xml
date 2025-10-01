@@ -11,7 +11,18 @@
 <description>Andrew Heiss&#39;s blog</description>
 <language>en</language>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Tue, 18 Feb 2025 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 21 Jul 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>How to open a folder as a Positron project with macOS Quick Actions</title>
+  <dc:creator>Paolo Ginatta</dc:creator>
+  <link>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/</link>
+  <description><![CDATA[ Add a Quick Action workflow so that you can right click on a folder in Finder to open it in Positron. ]]></description>
+  <category>positron</category>
+  <category>automator</category>
+  <guid>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/</guid>
+  <pubDate>Mon, 21 Jul 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/open-folder-in-positron.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
 <item>
   <title>How to use a histogram as a legend in {ggplot2}</title>
   <dc:creator>Paolo Ginatta</dc:creator>

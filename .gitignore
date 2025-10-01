@@ -13,3 +13,5 @@ static/etc/*
 .DS_Store
 
 /.luarc.json
+
+/.quarto/

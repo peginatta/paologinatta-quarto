@@ -11,7 +11,410 @@
 <description>Andrew Heiss&#39;s blog</description>
 <language>en</language>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Tue, 18 Feb 2025 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 21 Jul 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>How to open a folder as a Positron project with macOS Quick Actions</title>
+  <dc:creator>Paolo Ginatta</dc:creator>
+  <link>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+tl;dr
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Download and unzip this:</p>
+<p class="text-center">
+<a class="btn btn-primary" target="_blank" href="open-in-positron.zip"><i class="fa-solid fa-download" aria-label="download"></i> “Open in Positron” Quick Action</a>
+</p>
+<p>Put <code>Open in Positron.workflow</code> in <code>~/Library/Services</code>.</p>
+<p>Now you can right click on folders in Finder, go to Quick Actions, and select “Open in Positron” to open folders as projects in Positron.</p>
+</div>
+</div>
+<p>One thing I’m still adjusting to in Positron is how it treats projects and folders. RStudio makes it easy to follow a <a href="https://r4ds.hadley.nz/workflow-scripts.html#projects">project-oriented workflow</a>, and project-specific settings get set in a special <code>Rproj</code> file. When you open an <code>Rproj</code> file from Finder or Windows Explorer, a new RStudio instance gets opened and the working directory is automatically set to the project directory. It’s portable across systems (and within your own computer), and <a href="https://www.tidyverse.org/blog/2017/12/workflow-vs-script/">you never have to worry about running <code>setwd()</code></a>. It’s the ideal workflow.</p>
+<section id="projects-in-positron" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="projects-in-positron">Projects in Positron</h2>
+<p>Positron doesn’t have the concept of an <code>Rproj</code> file, but <a href="https://positron.posit.co/rstudio-rproj-file.html">it most definitely still works with project-based workflows</a>. You can open a project by dragging a folder onto the Positron icon in the Dock (on macOS; Windows people—you do… something else?), and the whole folder opens in Positron, with the working directory automatically set there. You can have as many folders/projects open as you want, and instead of getting a bunch of separate RStudio icons in the Dock, you get one Positron icon with a ton of windows:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/lots-o-positrons.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Lots of Positron projects open all at once</figcaption>
+</figure>
+</div>
+<p>Positron also has a helpful project switcher menu in the top right corner, just like RStudio:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/project-menu.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption class="margin-caption">Positron’s project menu</figcaption>
+</figure>
+</div>
+<p>You can also use <kbd>ctrl+r</kbd> in Positron to see a list of recently opened projects/folders:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/recent-projects-ctrl-r.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption class="margin-caption">Recent Positron projects with <kbd>ctrl+r</kbd></figcaption>
+</figure>
+</div>
+<p>That’s all great and wonderful and fine.</p>
+</section>
+<section id="quickly-opening-folders-in-positron" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="quickly-opening-folders-in-positron">Quickly opening folders in Positron</h2>
+<p>My main source of friction with Positron-based projects (and this applies to Visual Studio Code too) is quickly opening a folder as a project from Finder. Since there’s no concept of an <code>Rproj</code>, I can’t just double click on a file to open Positron and have it pointed at the right place. I have to drag it down to the Dock.</p>
+<p>Well, kind of. <a href="https://positron.posit.co/rstudio-rproj-file.html#launching-positron-in-a-workspace">Positron has a few recommended ways to speed up the folder opening process</a>.</p>
+<section id="workspaces" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="workspaces">Workspaces</h3>
+<p>Positron/Visual Studio Code has the idea of <a href="https://code.visualstudio.com/docs/editing/workspaces/workspaces">workspaces</a>. You can save a folder (or a collection of folders) as a workspace to store extra project-specific settings. The Positron documentation <a href="https://positron.posit.co/rstudio-rproj-file.html#positron-workspaces-and-settings.json">has more details about this too</a>.</p>
+<p>These are a little weird compared to <code>Rproj</code> files. An <code>Rproj</code> file is a plain text file that contains project-specific settings <em>and</em> directs RStudio to set the working directory to its location. With Positron/Visual Studio Code workspaces, the project-specific settings are stored in <code>.vscode/settings.json</code>, but there’s nothing to tell Positron to open a project. The closest analogue is to go to File &gt; Save Workspace As… in Positron and save a <code>&lt;project-name&gt;.code-workspace</code> file. This is technically called a <a href="https://code.visualstudio.com/docs/editing/workspaces/workspaces#_multiroot-workspaces">“Multi-root workspace”</a> and allows you to include multiple folders in the same workspace, but it also works for a single folder. I do this for my website here—I have <a href="https://github.com/andrewheiss/ath-quarto/blob/main/ath-quarto.Rproj">an <code>ath-quarto.Rproj</code> file</a> for opening this project in RStudio and <a href="https://github.com/andrewheiss/ath-quarto/blob/main/ath-quarto.code-workspace">an <code>ath-quarto.code-workspace</code> file</a> that I can double click on to open the project in Positron:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/code-workspace.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">A <code>code-workspace</code> file</figcaption>
+</figure>
+</div>
+<p>The one downside to this is that Positron treats multi-root workspaces differently visually—it includes an extra “(Workspace)” suffix in the window title, and it displays as a file and not a folder in the recently opened projects area in macOS’s Mission Control:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/mission-control.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption class="margin-caption">Different icon styles in Mission Control</figcaption>
+</figure>
+</div>
+<p>Using multi-root workspaces for single-directory projects works fine—it’s just a little annoying to have these weirdly superpowered workspaces that get treated specially. But it’s also convenient if you want to have a file that you can open like an <code>Rproj</code>. I actually have a little folder in my Dock that lets me open my website either in RStudio or in Positron, which is only possible because of the <code>code-workspace</code> file:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/dock-folder.png" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption class="margin-caption">Pinned Dock folder with shortcuts to an <code>Rproj</code> file and a <code>code-workspace</code> file</figcaption>
+</figure>
+</div>
+</section>
+<section id="project-manager-raycast" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="project-manager-raycast">Project Manager + Raycast</h3>
+<p>Another alternative <a href="https://positron.posit.co/rstudio-rproj-file.html#launch-from-the-project-manager-extension">that Positron recommends</a> is to use the <a href="https://open-vsx.org/extension/alefragnani/project-manager">Project Manager extension</a> in conjunction with <a href="https://www.raycast.com/">Raycast</a> (<a href="https://positron.posit.co/rstudio-rproj-file.html#use-an-application-launcher">see here for more</a>). This is super neat—once you set it up, you can add a keyboard shortcut in Raycast to open a list of all your saved projects. For me, I can mash <kbd>⌘⌥^⇧P</kbd> and open any of the projects that I’ve configured in Project Manager:<sup>1</sup></p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;Though note here that the saved <code>code-workspace</code> projects like “ath-quarto” and “2025 playground” get different icons, and macOS has weirdly decided to show those as Skype files???—yet another minorly annoying downside to the multi-root <code>code-workspace</code> approach.</p></div></div><div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/raycast-projects.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Positron projects in Raycast</figcaption>
+</figure>
+</div>
+<p>The one downside to this is that I have to remember to manually add a project to the Project Manager extension, which is extra friction and something I always forget to do.</p>
+</section>
+</section>
+<section id="open-a-folder-in-positron-macos-quick-actions" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="open-a-folder-in-positron-macos-quick-actions">Open a folder in Positron macOS Quick Actions</h2>
+<p>On Windows, the Positron installer <a href="https://positron.posit.co/rstudio-rproj-file.html#launch-from-windows-file-explorer">provides an option to add an “Open with Positron” action to the Windows Explorer directory context menu</a> so that when you right click on a folder, it gives an option to open the folder in Positron. That’s neat and easy.</p>
+<p>macOS doesn’t have the exact equivalent and restricts what can be added to the right click context menu. But you <em>can</em> actually add special automated workflows as something called either Services or Quick Actions to Finder’s right click context menu.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Services vs.&nbsp;Quick Actions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><a href="https://support.apple.com/en-il/guide/mac-help/mchlp1012/mac">Services</a> have been part of macOS for a long time. They can be made with Automator, or incorporated directly in applications. <a href="https://support.apple.com/guide/automator/use-quick-action-workflows-aut73234890a/mac">Quick Actions</a> are newer (though they’ve been around since at least Mojave in 2018) and are incorporated directly in Finder. I <em>think</em> they can only be made through Automator(??), though maybe applications can provide them directly as well(????)</p>
+</div>
+</div>
+<p>It’s fairly straightforward to create your own Quick Action workflow:</p>
+<ol type="1">
+<li>Open <a href="https://en.wikipedia.org/wiki/Automator_(macOS)">Automator</a>. It’s already installed on your computer; everybody always forgets this exists.</li>
+<li>Go to File &gt; New and select “Quick Action”</li>
+<li>Create a workflow with all these settings (a screenshot of the finished workflow is included below):
+<ol type="1">
+<li><p>Set “Workflow receives current” to “folders” in Finder<sup>2</sup></p></li>
+<li><p>Drag the “Run Shell Script” action from the Actions Library to the workflow</p></li>
+<li><p>Set “Pass input” to “as arguments”</p></li>
+<li><p>Paste this script into the script area:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> f <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$@</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span></span>
+<span id="cb1-2"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">do</span></span>
+<span id="cb1-3">    <span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">open</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-a</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Positron"</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$f</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span></span>
+<span id="cb1-4"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">done</span></span></code></pre></div></li>
+</ol></li>
+<li>Save it as “Open in Positron” (or whatever else you want)</li>
+</ol>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;You could also set this to “files or folders” to add the Quick Action to all files too, but I find this excessive.</p></div></div><p>Here’s what the final thing should look like:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/quick-action.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Finished Quick Action workflow</figcaption>
+</figure>
+</div>
+<p>Once you’ve saved the workflow, it will live at <code>~/Library/Services/Open in Positron.workflow</code>.</p>
+<p>Now when you right click on a folder in Finder, you can go to Quick Actions &gt; Open in Positron and the folder will open in Positron as a project!</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/open-folder-in-positron.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Context menu for opening a folder in Positron</figcaption>
+</figure>
+</div>
+<p>If you use the Gallery View in Finder (I never do—Column View forever), you’ll also get a neat little “Open in Positron” button when you look at the details of a folder:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/gallery-open-in-positron.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">“Open in Positron” button in Gallery View</figcaption>
+</figure>
+</div>
+<p>This is so helpful! It stinks that “Open in Positron” is buried under one extra level of menus (Quick Actions), but having the ability to open a project from Finder without needing to drag things to the Dock is really great.</p>
+</section>
+<section id="making-this-native" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="making-this-native">Making this native?</h2>
+<p>Theoretically, I think this extra Service/Quick Action thing could be bundled into Positron itself. Lots of macOS apps add stuff to the Service menu. Like, I can open a new <a href="https://iterm2.com/">iTerm2</a> tab to this folder, or open the folder in <a href="https://www.sourcegear.com/diffmerge/">DiffMerge</a>, or encrypt/decrypt files with OpenPGP. Those options are all available because I have iTerm2, DiffMerge, and <a href="https://gpgtools.org/">GPG Suite</a> installed.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/finder-services.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Lots of services in Finder</figcaption>
+</figure>
+</div>
+<p>These services are defined in each app’s respective <code>&lt;App Name&gt;.app/Contents/Info.plist</code> file (<a href="https://developer.apple.com/documentation/bundleresources/information-property-list/nsservices">see Apple’s official documentation here</a>, or <a href="https://nilcoalescing.com/blog/macOSSystemWideServices/">this example</a>). For instance, DiffMerge has this entry in its <code>Info.plist</code>:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Info.plist</strong></pre>
+</div>
+<div class="sourceCode" id="cb2" data-code-fold="true" data-filename="Info.plist" style="background: #f1f3f5;"><pre class="sourceCode xml code-with-copy"><code class="sourceCode xml"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;!-- This gets us on the "Finder | Services -&gt;" menu in the --&gt;</span></span>
+<span id="cb2-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;!-- "Files and Folders" group.  It also gets us at the     --&gt;</span></span>
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;!-- bottom Finder's context menu when you right-click on   --&gt;</span></span>
+<span id="cb2-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;!-- one or more items.                                     --&gt;</span></span>
+<span id="cb2-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;!-- I'm using NSSendTypes rather than NSSendFileTypes      --&gt;</span></span>
+<span id="cb2-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;!-- so that we get directories and so that we appear with  --&gt;</span></span>
+<span id="cb2-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;!-- "Files and Folders" rather than with "Text" grouping.  --&gt;</span></span>
+<span id="cb2-8">&lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;NSServices&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;</span>
+<span id="cb2-9">&lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">array</span>&gt;</span>
+<span id="cb2-10">  &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">dict</span>&gt;</span>
+<span id="cb2-11">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;NSMenuItem&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;</span>
+<span id="cb2-12">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">dict</span>&gt;</span>
+<span id="cb2-13">      &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;default&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;</span>
+<span id="cb2-14">      &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;Open in DiffMerge&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;</span>
+<span id="cb2-15">    &lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">dict</span>&gt;</span>
+<span id="cb2-16">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;NSMessage&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;</span>
+<span id="cb2-17">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;openFilesViaService&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;</span>
+<span id="cb2-18">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;NSUserData&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;</span>
+<span id="cb2-19">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;SGDM&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;</span>
+<span id="cb2-20">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;NSPortName&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;</span>
+<span id="cb2-21">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;DiffMerge&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;</span>
+<span id="cb2-22">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;NSRequiredContext&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;</span>
+<span id="cb2-23">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">dict</span>&gt;</span>
+<span id="cb2-24">      &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;NSTextContent&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;</span>
+<span id="cb2-25">      &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;FilePath&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;</span>
+<span id="cb2-26">    &lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">dict</span>&gt;</span>
+<span id="cb2-27">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;NSSendTypes&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;</span>
+<span id="cb2-28">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">array</span>&gt;</span>
+<span id="cb2-29">      &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;NSFilenamesPboardType&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">string</span>&gt;</span>
+<span id="cb2-30">    &lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">array</span>&gt;</span>
+<span id="cb2-31"></span>
+<span id="cb2-32">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;NSReturnTypes&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">key</span>&gt;</span>
+<span id="cb2-33">    &lt;<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">array</span>/&gt;</span>
+<span id="cb2-34">  &lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">dict</span>&gt;</span>
+<span id="cb2-35">&lt;/<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">array</span>&gt;</span></code></pre></div>
+</div>
+<p>BUT I don’t know anything about official macOS development and how to create plist files like this. Theoretically it’s possible though!</p>
+
+
+<!-- -->
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ginatta2025,
+  author = {Ginatta, Paolo},
+  title = {How to Open a Folder as a {Positron} Project with {macOS}
+    {Quick} {Actions}},
+  date = {2025-07-22},
+  url = {https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/},
+  doi = {10.59350/pt66c-57w73},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ginatta2025" class="csl-entry quarto-appendix-citeas">
+Ginatta, Paolo. 2025. <span>“How to Open a Folder as a Positron Project
+with macOS Quick Actions.”</span> July 22, 2025. <a href="https://doi.org/10.59350/pt66c-57w73">https://doi.org/10.59350/pt66c-57w73</a>.
+</div></div></section></div> ]]></description>
+  <category>positron</category>
+  <category>automator</category>
+  <guid>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/</guid>
+  <pubDate>Mon, 21 Jul 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/img/open-folder-in-positron.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
 <item>
   <title>How to use a histogram as a legend in {ggplot2}</title>
   <dc:creator>Paolo Ginatta</dc:creator>

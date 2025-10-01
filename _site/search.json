@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello there!",
-    "section": "",
-    "text": "I’m an assistant professor in the Department of Public Management and Policy at the Andrew Young School of Policy Studies at Georgia State University. I received a PhD in public policy and political science from Duke University’s Sanford School of Public Policy in 2017.\nI study how international NGOs work in authoritarian countries, and I received the 2016–2018 Emerging Scholar Dissertation Award from the International Society for Third Sector Research (ISTR). I do research in public administration and policy, nonprofit management, international relations, and comparative politics.\nI teach courses on program evaluation and causal inference, statistics and data science, data visualization, economics, and science communication. I’m also a certified RStudio instructor and a Posit Academy mentor and absolutely love teaching how to use R and the tidyverse."
-  },
-  {
     "objectID": "uses/index.html",
     "href": "uses/index.html",
     "title": "What I use",
@@ -511,11 +504,123 @@
     "text": "Citation\n\n Add to Zotero \n\n@article{Arel-BundockGreiferHeiss:2024,\n    title = {How to Interpret Statistical Models Using {marginaleffects} in {R} and {Python}},\n    author = {Vincent Arel-Bundock and Noah Greifer and Andrew Heiss},\n    doi = {10.18637/jss.v111.i09},\n    journal = {Journal of Statistical Software},\n    year = {2024},\n    volume = {111},\n    number = {9},\n    pages = {1–32}}"
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum vitæ",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello there!",
     "section": "",
-    "text": "Download current CV"
+    "text": "I’m an assistant professor in the Department of Public Management and Policy at the Andrew Young School of Policy Studies at Georgia State University. I received a PhD in public policy and political science from Duke University’s Sanford School of Public Policy in 2017.\nI study how international NGOs work in authoritarian countries, and I received the 2016–2018 Emerging Scholar Dissertation Award from the International Society for Third Sector Research (ISTR). I do research in public administration and policy, nonprofit management, international relations, and comparative politics.\nI teach courses on program evaluation and causal inference, statistics and data science, data visualization, economics, and science communication. I’m also a certified RStudio instructor and a Posit Academy mentor and absolutely love teaching how to use R and the tidyverse."
+  },
+  {
+    "objectID": "blog/index.html#section",
+    "href": "blog/index.html#section",
+    "title": "Blog",
+    "section": "2025",
+    "text": "2025\n\n\n    \n    \n                  \n            July 22, 2025\n        \n        \n            How to open a folder as a Positron project with macOS Quick Actions\n\n            \n            \n                \n                \n                    positron\n                \n                \n                \n                    automator\n                \n                \n            \n            \n\n            Add a Quick Action workflow so that you can right click on a folder in Finder to open it in Positron.\n            \n            \n             10.59350/pt66c-57w73\n            \n        \n        \n        \n            \n        \n        \n    \n    \n    \n                  \n            February 19, 2025\n        \n        \n            How to use a histogram as a legend in {ggplot2}\n\n            \n            \n                \n                \n                    r\n                \n                \n                \n                    tidyverse\n                \n                \n                \n                    ggplot\n                \n                \n                \n                    gis\n                \n                \n                \n                    maps\n                \n                \n            \n            \n\n            Land isn't unemployed—people are. Here's how to use R, {ggplot2}, {sf}, and {patchwork} to create a histogram legend in a choropleth map to better see the distribution of values.\n            \n            \n             10.59350/gt0nr-wct91\n            \n        \n        \n        \n            \n        \n        \n    \n    \n    \n                  \n            February 13, 2025\n        \n        \n            How to move Crimea from Russia to Ukraine in maps with R\n\n            \n            \n                \n                \n                    r\n                \n                \n                \n                    tidyverse\n                \n                \n                \n                    ggplot\n                \n                \n                \n                    ojs\n                \n                \n                \n                    observable plot\n                \n                \n                \n                    gis\n                \n                \n                \n                    maps\n                \n                \n            \n            \n\n            Natural Earth's de facto on-the-ground policy conflicts with de jure boundaries. Use {sf} and R to relocate parts of country shapes.\n            \n            \n             10.59350/28kp0-nbq92\n            \n        \n        \n        \n            \n        \n        \n    \n    \n    \n                  \n            February 10, 2025\n        \n        \n            Using USAID data to make fancy world maps with Observable Plot\n\n            \n            \n                \n                \n                    ojs\n                \n                \n                \n                    observable plot\n                \n                \n                \n                    gis\n                \n                \n                \n                    maps\n                \n                \n                \n                    usaid\n                \n                \n            \n            \n\n            Manipulate geographic data, change projections, get live data from a database, and make interactive plots with Observable JS\n            \n            \n             10.59350/c0aep-hp989\n            \n        \n        \n        \n            \n        \n        \n    \n    \n    \n                  \n            January 27, 2025\n        \n        \n            Guide to comparing sample and population proportions with CPS data, both classically and Bayesianly\n\n            \n            \n                \n                \n                    r\n                \n                \n                \n                    tidyverse\n                \n                \n                \n                    us census\n                \n                \n                \n                    ggplot\n                \n                \n                \n                    bayes\n                \n                \n                \n                    brms\n                \n                \n                \n                    surveys\n                \n                \n            \n            \n\n            Download CPS demographic data from IPUMS and use R and {brms} to calculate differences between sample and national proportions with Bayesian ROPE-based inference\n            \n            \n             10.59350/8ws3f-1fd56\n            \n        \n        \n        \n            \n        \n        \n    \n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-1",
+    "href": "blog/index.html#section-1",
+    "title": "Blog",
+    "section": "2024",
+    "text": "2024\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-2",
+    "href": "blog/index.html#section-2",
+    "title": "Blog",
+    "section": "2023",
+    "text": "2023\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-3",
+    "href": "blog/index.html#section-3",
+    "title": "Blog",
+    "section": "2022",
+    "text": "2022\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-4",
+    "href": "blog/index.html#section-4",
+    "title": "Blog",
+    "section": "2021",
+    "text": "2021\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-5",
+    "href": "blog/index.html#section-5",
+    "title": "Blog",
+    "section": "2020",
+    "text": "2020\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-6",
+    "href": "blog/index.html#section-6",
+    "title": "Blog",
+    "section": "2019",
+    "text": "2019\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-7",
+    "href": "blog/index.html#section-7",
+    "title": "Blog",
+    "section": "2018",
+    "text": "2018\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-8",
+    "href": "blog/index.html#section-8",
+    "title": "Blog",
+    "section": "2017",
+    "text": "2017\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-9",
+    "href": "blog/index.html#section-9",
+    "title": "Blog",
+    "section": "2016",
+    "text": "2016\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-10",
+    "href": "blog/index.html#section-10",
+    "title": "Blog",
+    "section": "2013",
+    "text": "2013\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-11",
+    "href": "blog/index.html#section-11",
+    "title": "Blog",
+    "section": "2012",
+    "text": "2012\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-12",
+    "href": "blog/index.html#section-12",
+    "title": "Blog",
+    "section": "2011",
+    "text": "2011\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-13",
+    "href": "blog/index.html#section-13",
+    "title": "Blog",
+    "section": "2010",
+    "text": "2010\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-14",
+    "href": "blog/index.html#section-14",
+    "title": "Blog",
+    "section": "2009",
+    "text": "2009\n\n\n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html#section-15",
+    "href": "blog/index.html#section-15",
+    "title": "Blog",
+    "section": "2007",
+    "text": "2007\n\n\n    \n\nNo matching items"
   },
   {
     "objectID": "blog/2025/02/19/ggplot-histogram-legend/index.html",
@@ -714,116 +819,46 @@
     "text": "Alternative data sources\nNatural Earth isn’t the only source of geographic data online, and other sources use de jure borders instead of de facto borders, like these:\n\nGISCO\nThe European Commission’s Eurostat hosts the Geographic Information System of the Commission (GISCO), which provides GIS data for the EU. They offer global shapefiles that follow EU-based de jure borders. The {giscoR} package provides a nice frontend for getting that data into R at 5 different resolutions (1:60m, 1:20m, 1:10m, 1:3m, and super detailed 1:1m!). It does not come with additional metadata for each country, though (i.e. there are no regional divisions, population values, map colors, names in other languages, and so on), so it requires some extra cleaning work if you want those details. For example, can add region information with {countrycode}:\n\nlibrary(giscoR)\nlibrary(countrycode)\n\nworld_gisco &lt;- gisco_get_countries(\n  year = \"2024\",\n  epsg = \"4326\",\n  resolution = \"60\"\n) |&gt; \n  # Add World Bank regions\n  mutate(region = countrycode(ISO3_CODE, origin = \"iso3c\", destination = \"region\"))\n\nworld_gisco |&gt; \n  filter(NAME_ENGL != \"Antarctica\") |&gt; \n  ggplot() + \n  geom_sf(aes(fill = region), color = \"white\", linewidth = 0.1) +\n  scale_fill_manual(values = carto_prism, guide = \"none\") +\n  coord_sf(crs = \"+proj=robin\") +\n  theme_void()\n\n\n\n\n\n\n\n\nSince the EU doesn’t de jure-ily recognize the Russian occupation of Crimea, Crimea is in Ukraine:\n\nukraine_gisco &lt;- world_gisco |&gt; filter(NAME_ENGL == \"Ukraine\")\nrussia_gisco &lt;- world_gisco |&gt; filter(NAME_ENGL == \"Russian Federation\")\n\nukraine_gisco_bbox &lt;- ukraine_gisco |&gt; \n  st_buffer(dist = 100000) |&gt;  # Add 100,000 meter buffer around the country \n  st_bbox()\n\nggplot() +\n  geom_sf(data = world_gisco, fill = clr_land) +\n  geom_sf(data = russia_gisco, fill = rus_red) + \n  geom_sf(data = ukraine_gisco, fill = ukr_blue, color = ukr_yellow, linewidth = 2) + \n  coord_sf(\n    xlim = c(ukraine_gisco_bbox[\"xmin\"], ukraine_gisco_bbox[\"xmax\"]), \n    ylim = c(ukraine_gisco_bbox[\"ymin\"], ukraine_gisco_bbox[\"ymax\"])\n  ) +\n  theme_void() +\n  theme(panel.background = element_rect(fill = clr_ocean))\n\n\n\n\n\n\n\n\nIt’s possible to use GISCO data with Observable too. We could load the data into R and clean it up there (like adding regions and other details) and the save it as GeoJSON, like we did with the Natural Earth data.\nOr we can grab the original raw GeoJSON from Eurostat directly. For example, here’s the raw 60M 2024 world map using the WGS84 (4326) projection that we grabbed with gisco_get_countries() earlier.\n\nworld_gisco = await FileAttachment(\"https://gisco-services.ec.europa.eu/distribution/v2/countries/geojson/CNTR_RG_60M_2024_4326.geojson\").json()\n\nukraine_gisco = world_gisco.features.find(d =&gt; d.properties.NAME_ENGL === \"Ukraine\")\nrussia_gisco = world_gisco.features.find(d =&gt; d.properties.NAME_ENGL === \"Russian Federation\")\n\nPlot.plot({\n  projection: { \n    type: \"equal-earth\", \n    domain: ukraine_gisco, \n    inset: 50 \n  }, \n  width: 800, \n  marks: [\n    Plot.sphere({ fill: clr_ocean }),\n    Plot.geo(world_gisco, {\n      stroke: \"black\",\n      strokeWidth: 0.5,\n      fill: clr_land\n    }),\n    Plot.geo(russia_gisco, { fill: rus_red }),\n    Plot.geo(ukraine_gisco, { \n      fill: ukr_blue, \n      stroke: ukr_yellow, \n      strokeWidth: 3\n    })\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVisionscarto\nThere are JSON-based map files created by @fil at Observable as part of the Visionscarto project.\nThey’re based on Natural Earth, but with some specific adjustments like adding Crimea to Ukraine, making Gaza a little bit bigger so that it doesn’t get dropped at lower resolutions like 110m, and using UN boundaries for Western Sahara.\nLike GISCO, though, these don’t have the additional columns that Natural Earth comes with (country names in a bunch of languages, region and continent designations, map coloring schemes, population and GDP estimates, etc.), and those would need to be added manually in R or Observable or whatever.\n\nimport {world110m} from \"@visionscarto/geo\"\n\ncountries110m = topojson.feature(world110m, world110m.objects.countries)\nukraine_visionscarto = countries110m.features.find(d =&gt; d.properties.name === \"Ukraine\")\nrussia_visionscarto = countries110m.features.find(d =&gt; d.properties.name === \"Russia\")\n\nPlot.plot({\n  projection: { \n    type: \"equal-earth\", \n    domain: ukraine_visionscarto, \n    inset: 50 \n  }, \n  width: 800, \n  marks: [\n    Plot.sphere({ fill: clr_ocean }),\n    Plot.geo(countries110m, {\n      stroke: \"black\",\n      strokeWidth: 0.5,\n      fill: clr_land\n    }),\n    Plot.geo(russia_visionscarto, { fill: rus_red }),\n    Plot.geo(ukraine_visionscarto, { \n      fill: ukr_blue, \n      stroke: ukr_yellow, \n      strokeWidth: 3\n    })\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLess automatic sources\nThere are other sources too, but they require manual downloading:\n\nThe geoBoundaries project, hosted by the William & Mary geoLab\nThe UN’s Country Boundaries of the World hosted at the UN’s Food and Agricultural Organization (FAO) site\nOpendatasoft’s copy of the World Food Programme’s World Administrative Boundaries shapefile"
   },
   {
-    "objectID": "blog/index.html#section",
-    "href": "blog/index.html#section",
-    "title": "Blog",
-    "section": "2025",
-    "text": "2025\n\n\n    \n    \n                  \n            February 19, 2025\n        \n        \n            How to use a histogram as a legend in {ggplot2}\n\n            \n            \n                \n                \n                    r\n                \n                \n                \n                    tidyverse\n                \n                \n                \n                    ggplot\n                \n                \n                \n                    gis\n                \n                \n                \n                    maps\n                \n                \n            \n            \n\n            Land isn't unemployed—people are. Here's how to use R, {ggplot2}, {sf}, and {patchwork} to create a histogram legend in a choropleth map to better see the distribution of values.\n            \n            \n             10.59350/gt0nr-wct91\n            \n        \n        \n        \n            \n        \n        \n    \n    \n    \n                  \n            February 13, 2025\n        \n        \n            How to move Crimea from Russia to Ukraine in maps with R\n\n            \n            \n                \n                \n                    r\n                \n                \n                \n                    tidyverse\n                \n                \n                \n                    ggplot\n                \n                \n                \n                    ojs\n                \n                \n                \n                    observable plot\n                \n                \n                \n                    gis\n                \n                \n                \n                    maps\n                \n                \n            \n            \n\n            Natural Earth's de facto on-the-ground policy conflicts with de jure boundaries. Use {sf} and R to relocate parts of country shapes.\n            \n            \n             10.59350/28kp0-nbq92\n            \n        \n        \n        \n            \n        \n        \n    \n    \n    \n                  \n            February 10, 2025\n        \n        \n            Using USAID data to make fancy world maps with Observable Plot\n\n            \n            \n                \n                \n                    ojs\n                \n                \n                \n                    observable plot\n                \n                \n                \n                    gis\n                \n                \n                \n                    maps\n                \n                \n                \n                    usaid\n                \n                \n            \n            \n\n            Manipulate geographic data, change projections, get live data from a database, and make interactive plots with Observable JS\n            \n            \n             10.59350/c0aep-hp989\n            \n        \n        \n        \n            \n        \n        \n    \n    \n    \n                  \n            January 27, 2025\n        \n        \n            Guide to comparing sample and population proportions with CPS data, both classically and Bayesianly\n\n            \n            \n                \n                \n                    r\n                \n                \n                \n                    tidyverse\n                \n                \n                \n                    us census\n                \n                \n                \n                    ggplot\n                \n                \n                \n                    bayes\n                \n                \n                \n                    brms\n                \n                \n                \n                    surveys\n                \n                \n            \n            \n\n            Download CPS demographic data from IPUMS and use R and {brms} to calculate differences between sample and national proportions with Bayesian ROPE-based inference\n            \n            \n             10.59350/8ws3f-1fd56\n            \n        \n        \n        \n            \n        \n        \n    \n    \n\nNo matching items"
+    "objectID": "blog/2025/02/22/positron-open-with-finder/index.html",
+    "href": "blog/2025/02/22/positron-open-with-finder/index.html",
+    "title": "How to open a folder as a Positron project with macOS Quick Actions",
+    "section": "",
+    "text": "tl;dr\n\n\n\nDownload and unzip this:\n\n “Open in Positron” Quick Action\n\nPut Open in Positron.workflow in ~/Library/Services.\nNow you can right click on folders in Finder, go to Quick Actions, and select “Open in Positron” to open folders as projects in Positron.\nOne thing I’m still adjusting to in Positron is how it treats projects and folders. RStudio makes it easy to follow a project-oriented workflow, and project-specific settings get set in a special Rproj file. When you open an Rproj file from Finder or Windows Explorer, a new RStudio instance gets opened and the working directory is automatically set to the project directory. It’s portable across systems (and within your own computer), and you never have to worry about running setwd(). It’s the ideal workflow."
   },
   {
-    "objectID": "blog/index.html#section-1",
-    "href": "blog/index.html#section-1",
-    "title": "Blog",
-    "section": "2024",
-    "text": "2024\n\n\n    \n\nNo matching items"
+    "objectID": "blog/2025/02/22/positron-open-with-finder/index.html#projects-in-positron",
+    "href": "blog/2025/02/22/positron-open-with-finder/index.html#projects-in-positron",
+    "title": "How to open a folder as a Positron project with macOS Quick Actions",
+    "section": "Projects in Positron",
+    "text": "Projects in Positron\nPositron doesn’t have the concept of an Rproj file, but it most definitely still works with project-based workflows. You can open a project by dragging a folder onto the Positron icon in the Dock (on macOS; Windows people—you do… something else?), and the whole folder opens in Positron, with the working directory automatically set there. You can have as many folders/projects open as you want, and instead of getting a bunch of separate RStudio icons in the Dock, you get one Positron icon with a ton of windows:\n\n\n\nLots of Positron projects open all at once\n\n\nPositron also has a helpful project switcher menu in the top right corner, just like RStudio:\n\n\n\nPositron’s project menu\n\n\nYou can also use ctrl+r in Positron to see a list of recently opened projects/folders:\n\n\n\nRecent Positron projects with ctrl+r\n\n\nThat’s all great and wonderful and fine."
   },
   {
-    "objectID": "blog/index.html#section-2",
-    "href": "blog/index.html#section-2",
-    "title": "Blog",
-    "section": "2023",
-    "text": "2023\n\n\n    \n\nNo matching items"
+    "objectID": "blog/2025/02/22/positron-open-with-finder/index.html#quickly-opening-folders-in-positron",
+    "href": "blog/2025/02/22/positron-open-with-finder/index.html#quickly-opening-folders-in-positron",
+    "title": "How to open a folder as a Positron project with macOS Quick Actions",
+    "section": "Quickly opening folders in Positron",
+    "text": "Quickly opening folders in Positron\nMy main source of friction with Positron-based projects (and this applies to Visual Studio Code too) is quickly opening a folder as a project from Finder. Since there’s no concept of an Rproj, I can’t just double click on a file to open Positron and have it pointed at the right place. I have to drag it down to the Dock.\nWell, kind of. Positron has a few recommended ways to speed up the folder opening process.\n\nWorkspaces\nPositron/Visual Studio Code has the idea of workspaces. You can save a folder (or a collection of folders) as a workspace to store extra project-specific settings. The Positron documentation has more details about this too.\nThese are a little weird compared to Rproj files. An Rproj file is a plain text file that contains project-specific settings and directs RStudio to set the working directory to its location. With Positron/Visual Studio Code workspaces, the project-specific settings are stored in .vscode/settings.json, but there’s nothing to tell Positron to open a project. The closest analogue is to go to File &gt; Save Workspace As… in Positron and save a &lt;project-name&gt;.code-workspace file. This is technically called a “Multi-root workspace” and allows you to include multiple folders in the same workspace, but it also works for a single folder. I do this for my website here—I have an ath-quarto.Rproj file for opening this project in RStudio and an ath-quarto.code-workspace file that I can double click on to open the project in Positron:\n\n\n\nA code-workspace file\n\n\nThe one downside to this is that Positron treats multi-root workspaces differently visually—it includes an extra “(Workspace)” suffix in the window title, and it displays as a file and not a folder in the recently opened projects area in macOS’s Mission Control:\n\n\n\nDifferent icon styles in Mission Control\n\n\nUsing multi-root workspaces for single-directory projects works fine—it’s just a little annoying to have these weirdly superpowered workspaces that get treated specially. But it’s also convenient if you want to have a file that you can open like an Rproj. I actually have a little folder in my Dock that lets me open my website either in RStudio or in Positron, which is only possible because of the code-workspace file:\n\n\n\nPinned Dock folder with shortcuts to an Rproj file and a code-workspace file\n\n\n\n\nProject Manager + Raycast\nAnother alternative that Positron recommends is to use the Project Manager extension in conjunction with Raycast (see here for more). This is super neat—once you set it up, you can add a keyboard shortcut in Raycast to open a list of all your saved projects. For me, I can mash ⌘⌥^⇧P and open any of the projects that I’ve configured in Project Manager:1\n1 Though note here that the saved code-workspace projects like “ath-quarto” and “2025 playground” get different icons, and macOS has weirdly decided to show those as Skype files???—yet another minorly annoying downside to the multi-root code-workspace approach.\n\n\nPositron projects in Raycast\n\n\nThe one downside to this is that I have to remember to manually add a project to the Project Manager extension, which is extra friction and something I always forget to do."
   },
   {
-    "objectID": "blog/index.html#section-3",
-    "href": "blog/index.html#section-3",
-    "title": "Blog",
-    "section": "2022",
-    "text": "2022\n\n\n    \n\nNo matching items"
+    "objectID": "blog/2025/02/22/positron-open-with-finder/index.html#open-a-folder-in-positron-macos-quick-actions",
+    "href": "blog/2025/02/22/positron-open-with-finder/index.html#open-a-folder-in-positron-macos-quick-actions",
+    "title": "How to open a folder as a Positron project with macOS Quick Actions",
+    "section": "Open a folder in Positron macOS Quick Actions",
+    "text": "Open a folder in Positron macOS Quick Actions\nOn Windows, the Positron installer provides an option to add an “Open with Positron” action to the Windows Explorer directory context menu so that when you right click on a folder, it gives an option to open the folder in Positron. That’s neat and easy.\nmacOS doesn’t have the exact equivalent and restricts what can be added to the right click context menu. But you can actually add special automated workflows as something called either Services or Quick Actions to Finder’s right click context menu.\n\n\n\n\n\n\nServices vs. Quick Actions\n\n\n\nServices have been part of macOS for a long time. They can be made with Automator, or incorporated directly in applications. Quick Actions are newer (though they’ve been around since at least Mojave in 2018) and are incorporated directly in Finder. I think they can only be made through Automator(??), though maybe applications can provide them directly as well(????)\n\n\nIt’s fairly straightforward to create your own Quick Action workflow:\n\nOpen Automator. It’s already installed on your computer; everybody always forgets this exists.\nGo to File &gt; New and select “Quick Action”\nCreate a workflow with all these settings (a screenshot of the finished workflow is included below):\n\nSet “Workflow receives current” to “folders” in Finder2\nDrag the “Run Shell Script” action from the Actions Library to the workflow\nSet “Pass input” to “as arguments”\nPaste this script into the script area:\nfor f in \"$@\"\ndo\n    open -a \"Positron\" \"$f\"\ndone\n\nSave it as “Open in Positron” (or whatever else you want)\n\n2 You could also set this to “files or folders” to add the Quick Action to all files too, but I find this excessive.Here’s what the final thing should look like:\n\n\n\nFinished Quick Action workflow\n\n\nOnce you’ve saved the workflow, it will live at ~/Library/Services/Open in Positron.workflow.\nNow when you right click on a folder in Finder, you can go to Quick Actions &gt; Open in Positron and the folder will open in Positron as a project!\n\n\n\nContext menu for opening a folder in Positron\n\n\nIf you use the Gallery View in Finder (I never do—Column View forever), you’ll also get a neat little “Open in Positron” button when you look at the details of a folder:\n\n\n\n“Open in Positron” button in Gallery View\n\n\nThis is so helpful! It stinks that “Open in Positron” is buried under one extra level of menus (Quick Actions), but having the ability to open a project from Finder without needing to drag things to the Dock is really great."
   },
   {
-    "objectID": "blog/index.html#section-4",
-    "href": "blog/index.html#section-4",
-    "title": "Blog",
-    "section": "2021",
-    "text": "2021\n\n\n    \n\nNo matching items"
+    "objectID": "blog/2025/02/22/positron-open-with-finder/index.html#making-this-native",
+    "href": "blog/2025/02/22/positron-open-with-finder/index.html#making-this-native",
+    "title": "How to open a folder as a Positron project with macOS Quick Actions",
+    "section": "Making this native?",
+    "text": "Making this native?\nTheoretically, I think this extra Service/Quick Action thing could be bundled into Positron itself. Lots of macOS apps add stuff to the Service menu. Like, I can open a new iTerm2 tab to this folder, or open the folder in DiffMerge, or encrypt/decrypt files with OpenPGP. Those options are all available because I have iTerm2, DiffMerge, and GPG Suite installed.\n\n\n\nLots of services in Finder\n\n\nThese services are defined in each app’s respective &lt;App Name&gt;.app/Contents/Info.plist file (see Apple’s official documentation here, or this example). For instance, DiffMerge has this entry in its Info.plist:\n\n\nInfo.plist\n\n&lt;!-- This gets us on the \"Finder | Services -&gt;\" menu in the --&gt;\n&lt;!-- \"Files and Folders\" group.  It also gets us at the     --&gt;\n&lt;!-- bottom Finder's context menu when you right-click on   --&gt;\n&lt;!-- one or more items.                                     --&gt;\n&lt;!-- I'm using NSSendTypes rather than NSSendFileTypes      --&gt;\n&lt;!-- so that we get directories and so that we appear with  --&gt;\n&lt;!-- \"Files and Folders\" rather than with \"Text\" grouping.  --&gt;\n&lt;key&gt;NSServices&lt;/key&gt;\n&lt;array&gt;\n  &lt;dict&gt;\n    &lt;key&gt;NSMenuItem&lt;/key&gt;\n    &lt;dict&gt;\n      &lt;key&gt;default&lt;/key&gt;\n      &lt;string&gt;Open in DiffMerge&lt;/string&gt;\n    &lt;/dict&gt;\n    &lt;key&gt;NSMessage&lt;/key&gt;\n    &lt;string&gt;openFilesViaService&lt;/string&gt;\n    &lt;key&gt;NSUserData&lt;/key&gt;\n    &lt;string&gt;SGDM&lt;/string&gt;\n    &lt;key&gt;NSPortName&lt;/key&gt;\n    &lt;string&gt;DiffMerge&lt;/string&gt;\n    &lt;key&gt;NSRequiredContext&lt;/key&gt;\n    &lt;dict&gt;\n      &lt;key&gt;NSTextContent&lt;/key&gt;\n      &lt;string&gt;FilePath&lt;/string&gt;\n    &lt;/dict&gt;\n    &lt;key&gt;NSSendTypes&lt;/key&gt;\n    &lt;array&gt;\n      &lt;string&gt;NSFilenamesPboardType&lt;/string&gt;\n    &lt;/array&gt;\n\n    &lt;key&gt;NSReturnTypes&lt;/key&gt;\n    &lt;array/&gt;\n  &lt;/dict&gt;\n&lt;/array&gt;\n\nBUT I don’t know anything about official macOS development and how to create plist files like this. Theoretically it’s possible though!"
   },
   {
-    "objectID": "blog/index.html#section-5",
-    "href": "blog/index.html#section-5",
-    "title": "Blog",
-    "section": "2020",
-    "text": "2020\n\n\n    \n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html#section-6",
-    "href": "blog/index.html#section-6",
-    "title": "Blog",
-    "section": "2019",
-    "text": "2019\n\n\n    \n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html#section-7",
-    "href": "blog/index.html#section-7",
-    "title": "Blog",
-    "section": "2018",
-    "text": "2018\n\n\n    \n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html#section-8",
-    "href": "blog/index.html#section-8",
-    "title": "Blog",
-    "section": "2017",
-    "text": "2017\n\n\n    \n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html#section-9",
-    "href": "blog/index.html#section-9",
-    "title": "Blog",
-    "section": "2016",
-    "text": "2016\n\n\n    \n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html#section-10",
-    "href": "blog/index.html#section-10",
-    "title": "Blog",
-    "section": "2013",
-    "text": "2013\n\n\n    \n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html#section-11",
-    "href": "blog/index.html#section-11",
-    "title": "Blog",
-    "section": "2012",
-    "text": "2012\n\n\n    \n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html#section-12",
-    "href": "blog/index.html#section-12",
-    "title": "Blog",
-    "section": "2011",
-    "text": "2011\n\n\n    \n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html#section-13",
-    "href": "blog/index.html#section-13",
-    "title": "Blog",
-    "section": "2010",
-    "text": "2010\n\n\n    \n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html#section-14",
-    "href": "blog/index.html#section-14",
-    "title": "Blog",
-    "section": "2009",
-    "text": "2009\n\n\n    \n\nNo matching items"
-  },
-  {
-    "objectID": "blog/index.html#section-15",
-    "href": "blog/index.html#section-15",
-    "title": "Blog",
-    "section": "2007",
-    "text": "2007\n\n\n    \n\nNo matching items"
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitæ",
+    "section": "",
+    "text": "Download current CV"
   },
   {
     "objectID": "now/index.html",

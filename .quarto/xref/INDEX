@@ -145,5 +145,8 @@
   },
   "uses/index.qmd": {
     "index.html": "924ca8c7"
+  },
+  "blog/2025/02/22/positron-open-with-finder/index.qmd": {
+    "index.html": "3486fc58"
   }
 }

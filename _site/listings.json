@@ -4,8 +4,9 @@
     "items": []
   },
   {
-    "listing": "/atom.html",
+    "listing": "/blog/index.html",
     "items": [
+      "/blog/2025/02/22/positron-open-with-finder/index.html",
       "/blog/2025/02/19/ggplot-histogram-legend/index.html",
       "/blog/2025/02/13/natural-earth-crimea/index.html",
       "/blog/2025/02/10/usaid-ojs-maps/index.html",
@@ -13,8 +14,9 @@
     ]
   },
   {
-    "listing": "/blog/index.html",
+    "listing": "/atom.html",
     "items": [
+      "/blog/2025/02/22/positron-open-with-finder/index.html",
       "/blog/2025/02/19/ggplot-histogram-legend/index.html",
       "/blog/2025/02/13/natural-earth-crimea/index.html",
       "/blog/2025/02/10/usaid-ojs-maps/index.html",
@@ -63,6 +65,7 @@
   {
     "listing": "/rss.html",
     "items": [
+      "/blog/2025/02/22/positron-open-with-finder/index.html",
       "/blog/2025/02/19/ggplot-histogram-legend/index.html",
       "/blog/2025/02/13/natural-earth-crimea/index.html",
       "/blog/2025/02/10/usaid-ojs-maps/index.html",

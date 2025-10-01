@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://peginatta.github.io/paologinatta-quarto/index.html</loc>
-    <lastmod>2025-09-15T14:34:19.780Z</lastmod>
-  </url>
-  <url>
     <loc>https://peginatta.github.io/paologinatta-quarto/uses/index.html</loc>
     <lastmod>2025-05-26T06:59:58.243Z</lastmod>
   </url>
@@ -82,11 +78,15 @@
   </url>
   <url>
     <loc>https://peginatta.github.io/paologinatta-quarto/research/articles/arel-bundock-greifer-heiss-mfxplainer-2024/index.html</loc>
-    <lastmod>2025-05-26T06:59:57.588Z</lastmod>
+    <lastmod>2025-09-18T14:20:06.917Z</lastmod>
   </url>
   <url>
-    <loc>https://peginatta.github.io/paologinatta-quarto/cv/index.html</loc>
-    <lastmod>2025-05-27T11:48:04.225Z</lastmod>
+    <loc>https://peginatta.github.io/paologinatta-quarto/index.html</loc>
+    <lastmod>2025-09-18T09:12:41.715Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peginatta.github.io/paologinatta-quarto/blog/index.html</loc>
+    <lastmod>2025-10-01T08:54:29.001Z</lastmod>
   </url>
   <url>
     <loc>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/19/ggplot-histogram-legend/index.html</loc>
@@ -109,8 +109,12 @@
     <lastmod>2025-05-26T06:59:57.240Z</lastmod>
   </url>
   <url>
-    <loc>https://peginatta.github.io/paologinatta-quarto/blog/index.html</loc>
-    <lastmod>2025-05-26T06:59:57.353Z</lastmod>
+    <loc>https://peginatta.github.io/paologinatta-quarto/blog/2025/02/22/positron-open-with-finder/index.html</loc>
+    <lastmod>2025-10-01T08:51:04.231Z</lastmod>
+  </url>
+  <url>
+    <loc>https://peginatta.github.io/paologinatta-quarto/cv/index.html</loc>
+    <lastmod>2025-05-27T11:48:04.225Z</lastmod>
   </url>
   <url>
     <loc>https://peginatta.github.io/paologinatta-quarto/now/index.html</loc>
